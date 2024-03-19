@@ -104,7 +104,6 @@ header nav input[type=text] {
   }
 }
 
-
 /* video background */
 
 .video-masthead h1 {
@@ -129,35 +128,151 @@ header nav input[type=text] {
 }
 
 .metallic {
-  font-size: 48px; /* Adjust size as needed */
+  font-size: 48px; 
   color: #b0c4de; /* Silver color */
   text-shadow: 0 0 5px rgba(255,255,255,0.5), 0 0 10px rgba(255,255,255,0.5), 0 0 15px rgba(255,255,255,0.5), 0 0 20px rgba(255,255,255,0.5), 0 0 30px rgba(255,255,255,0.5), 0 0 40px rgba(255,255,255,0.5), 0 0 50px rgba(255,255,255,0.5); /* Shining effect */
 }
 
 .blue-ocean-bubbles {
-  font-size: 36px; /* Adjust size as needed */
+  font-size: 36px; 
   color: #0077be; /* Blue ocean color */
   text-shadow: 0 0 10px #0077be, 0 0 20px #0077be, 0 0 30px #0077be, 0 0 40px #0077be, 0 0 50px #0077be, 0 0 60px #0077be, 0 0 70px #0077be; /* Bubbles effect */
 }
 
-
-
-h1,h2 {
+.home_h1 {
   color: #f4f4f4;
   text-align: center;
   width: 100%;
   position: absolute;
 }
 
-.main_Section {
+
+.main-section {
   padding: 120px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; 
+  margin-top: 20px; 
+}
+
+.shark-section {
+  flex: 1;
+  padding: 0 20px;
 }
 
 
+.round-images img {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  border-radius: 50%;
+}
+
+.blue-ocean-bubbles {
+  color: #0077be; 
+  text-shadow: 0 0 10px #0077be, 0 0 20px #0077be, 0 0 30px #0077be, 0 0 40px #0077be, 0 0 50px #0077be, 0 0 60px #0077be, 0 0 70px #0077be; /* Bubbles effect */
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+.shark-section {
+  text-align: center;
+}
+
+.about-section {
+  text-align: justify;
+}
+
+
+/* Styles applied to support-section Class */
+.support-section {
+  max-width: 800px;
+  margin: auto;
+  padding: 120px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+/* Styles applied to support-p Class */
+.support-p {
+  margin-bottom: 15px;
+  color: white;
+}
+
+
+/* Styles applied to support-li Class */
+.support-li {
+  margin-bottom: 10px;
+}
+
+/* Styles applied to support-a Class */
+.support-a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Styles applied to support-form-block Class */
+.support-form-block {
+  /* Center the section horizontally on the page */
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  padding: 20px 20px;
+  background-color:rgba(129, 142, 152, 0.3);
+  max-width: 400px;
+  border-radius: 8px;
+}
+.support-form-block label {
+  font-weight: bold;
+}
+.support-form-block input,textarea {
+  background-color:rgba(129, 142, 152, 0.7);
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+/* Style for Submit button */
+.support-form-block input[type="submit"] {
+  background-color: #4c7faf; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+::placeholder {
+  color: #00227886; 
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 15px; 
+}
 
 /* Styles applied to the footer */
 footer {
-  margin-top: auto; /* This pushes the footer to the bottom. */
+  margin-top: auto; 
   padding: 10px;
   width: 100%;
   font-size: 8px;
